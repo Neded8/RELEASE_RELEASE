@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>Release-Base</artifactId>
-    <version>1.0</version>
+    <artifactId>RELEASE_RELEASE</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>16</maven.compiler.source>
@@ -13,11 +15,12 @@
     </properties>
 
     <scm>
-        <connection>scm:git:https://github.com/Neded8/Release-Base.git</connection>
-        <developerConnection>scm:git:https://github.com/Neded8/Release-Base.git</developerConnection>
-        <url>https://github.com/Neded8/Release-Base</url>
-        <tag>@{project.version}</tag>
+        <connection>scm:git:https://github.com/Neded8/Neded8/RELEASE_RELEASE.git</connection>
+        <developerConnection>scm:git:https://github.com/Neded8/RELEASE_RELEASE.git</developerConnection>
+        <url>https://github.com/Neded8/RELEASE_RELEASE</url>
+        <tag>v@{project.version}</tag>
     </scm>
+
     <build>
         <plugins>
             <plugin>
@@ -35,8 +38,5 @@
 
         </plugins>
     </build>
-
-
-
 
 </project>
