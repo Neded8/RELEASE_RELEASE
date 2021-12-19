@@ -4,7 +4,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>RELEASE_RELEASE</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.1-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>16</maven.compiler.source>
@@ -36,13 +36,5 @@
 
         </plugins>
     </build>
-
-    <distributionManagement>
-        <repository>
-            <id>internal.repo</id>
-            <name>Internal repo</name>
-            <url>file:///home/in</url>
-        </repository>
-    </distributionManagement>
 
 </project>
